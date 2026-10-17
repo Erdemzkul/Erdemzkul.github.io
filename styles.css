@@ -72,3 +72,24 @@
 .analytics-outcome strong{font-size:1rem;line-height:1.35}
 @media(max-width:900px){.geo-intro,.geo-explorer,.geo-thesis{grid-template-columns:1fr}.geo-journey{grid-template-columns:1fr}.geo-journey>b{transform:rotate(90deg);justify-self:center}.geo-journey article{min-height:auto}.language-pipeline{grid-template-columns:1fr 1fr}.language-pipeline article{min-height:190px}.language-pipeline article:last-child{grid-column:1/-1}}
 @media(max-width:640px){.geo-tabs{grid-template-columns:1fr}.geo-transfer{align-items:flex-start;flex-direction:column}.geo-thesis{gap:1rem}.language-pipeline{grid-template-columns:1fr}.language-pipeline article,.language-pipeline article:last-child{grid-column:auto;min-height:auto}.language-pipeline strong{margin-top:1rem}}
+
+/* Neutral background keeps the original green company logo readable. */
+.match-section{background:#f2f2f2}
+
+.hero h1 .hero-surname{color:#008c4b;display:inline-flex;align-items:center;gap:.12em;white-space:nowrap}.hero-surname img{width:.43em;height:.82em;object-fit:contain;flex-shrink:0}
+
+.hero-name-lockup{display:flex;align-items:stretch;gap:20px}.hero-name-lockup h1{font-size:clamp(3.5rem,7vw,6.6rem);flex:1;min-width:0}.hero-name-symbol{width:100px;height:auto;object-fit:fill;align-self:stretch;flex-shrink:0}.hero h1 .hero-surname{display:inline;color:#008c4b;white-space:nowrap}.hero-grid{grid-template-columns:1.18fr .82fr}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-name-lockup h1{font-size:clamp(4rem,12vw,6.6rem)}.hero-name-symbol{width:clamp(70px,15vw,125px)}}
+@media(max-width:640px){.hero-name-lockup{gap:12px}.hero-name-lockup h1{font-size:clamp(2.8rem,17vw,6rem)}.hero-name-symbol{width:18vw;max-width:105px}}
+
+.numbers .number-card.blue strong{font-size:clamp(2.7rem,4.6vw,4.8rem)}.numbers .number-card.blue span{font-size:.76rem;line-height:1.5}
+
+.skills-section{background:var(--pink)}
+
+.experience-section{background:#bccc16}
+
+.cms-illustration{margin:2rem 0 0;border:2px solid var(--ink);border-radius:.7rem;overflow:hidden;background:#06121e}.cms-illustration img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+
+/* Paired case studies share the same rows and footer treatment. */
+.case-balanced{display:grid;grid-template-rows:auto auto 1fr auto auto auto;align-content:start;gap:0}.case-balanced h3{margin:3rem 0 1rem;min-height:3em}.case-balanced>p{margin:0;min-height:12em}.case-balanced .project-illustration{margin:2rem 0 0;width:100%;aspect-ratio:3/2;border:2px solid currentColor;border-radius:.7rem;overflow:hidden}.case-balanced .project-illustration img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.case-tags{display:flex;flex-wrap:wrap;align-items:center;align-content:flex-start;gap:.5rem;padding-top:1.5rem;min-height:6rem}.case-tags span{font:500 .65rem/1.5 "DM Mono",monospace;border:1.5px solid currentColor;border-radius:999px;padding:.55rem .75rem}.case-action{padding-top:1rem}.case-action .button{background:#fff;color:#090909;border-color:#090909}.project-dark .case-action .button{background:#090909;color:#fff;border-color:#fff}.project-dark .case-action .button:hover{box-shadow:4px 4px 0 #fff}@media(min-width:901px){.case-balanced{grid-row:span 6;grid-template-rows:subgrid;row-gap:0}.case-balanced h3{min-height:0}.case-balanced>p{min-height:0}}@media(max-width:900px){.case-balanced h3,.case-balanced>p{min-height:0}.case-balanced .case-tags{min-height:0}.case-balanced .case-action{padding-top:1.5rem}}
+@media(min-width:901px){.case-balanced .project-illustration{height:clamp(260px,27vw,350px);aspect-ratio:auto}}
